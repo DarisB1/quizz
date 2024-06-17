@@ -5,12 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <meta name="description" content="quizz" />
-    <title></title>
+    <title>Quizz</title>
   </head>
   <body>
-      <h1>WELCOME TO THE <span>FRONTEND QUIZZ!</span></h1>
-      <p>Pick a subject to get started.</p>
+    <header>
+      <div class="checkbox">
+        <img id="dark-sun" src="assets/images/icon-sun-dark.svg" alt="soleil">
+        <input type="checkbox" name="" id="checkbox-color">
+        <img id="dark-moon" src="assets/images/icon-moon-dark.svg" alt="lune">
+      </div>
+    </header>
+    <main>
+    <section>
+    <hgroup>
+      <h1>Welcome to the <span>Frontend Quiz!</span></h1>
+      <p class="hgroup-p">Pick a subject to get started.</p>      
+    </hgroup>
 
+      <article class="art-theme">
+        <img class="bg-img" src="assets/images/icon-html.svg" alt="html icon">
+        <h2>HTML</h2>
+      </article>
+
+      <article class="art-theme">
+        <img class="bg-img" src="assets/images/icon-css.svg" alt="css icon">
+        <h2>CSS</h2>
+      </article>
+
+      <article class="art-theme">
+        <img class="bg-img" src="assets/images/icon-js.svg" alt="javascript icon">
+        <h2>JAVASCRIPT</h2>
+      </article>
+
+      <article class="art-theme">
+        <img class="bg-img" src="assets/images/icon-accessibility.svg" alt="accessibility icon">
+        <h2>ACCESSIBILITY</h2>
+      </article>
+    </section>
+  </main>
     <script src="main.js" type="module"></script>
   </body>
 </html>

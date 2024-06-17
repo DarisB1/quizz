@@ -1,5 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f4f6fa;
+  padding: 0 1rem;
+}
+
+.hgroup-p {
+  color: #626C7F;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  justify-content: end;
+}
+
+hgroup {
+  margin: 5rem 0 3rem 0;
+}
+
+h1 {
+  margin-bottom: 1rem;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+span {
+  font-weight: 500;
+  color: #313E51;
+}
+
+.art-theme {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background-color: white;
+}
+
+.bg-img {
+  background-color: #fff1e9;
+  margin-right: 16px;
+  border-radius: 5px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.sect-theme-js {
+  display: flex;  
+  justify-content: space-between;
+}
+
+.art-theme-js {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.art-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+}
+
+ul{
+  list-style: none;
 }
